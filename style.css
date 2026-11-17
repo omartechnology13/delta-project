@@ -1,0 +1,142 @@
+header {
+    background-color: rgb(17, 17, 82);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid rgb(130, 112, 5);
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color: rgb(131, 98, 15);
+    text-decoration: none;
+    margin-right: 35px; 
+    margin-left: 35px;
+}
+
+header a:last-child {
+    margin-right: 0; /* لإزالة المسافة الزائدة بعد آخر رابط */
+}
+
+nav {
+    padding: 10px 30px;
+    margin: 0 auto; /* لوضع الروابط في منتصف الهيدر */
+}
+.logo
+{
+    margin-left: 20px;
+}
+#main
+{
+border-radius: 20px;
+background-color: darkblue;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: flex-start;
+padding: 25px 40px;
+}
+body
+{
+    background-color: cornflowerblue;
+}
+.building
+{
+    border-radius: 50%;
+    border: solid white;
+    height: 220px;
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 2.1em;
+    color: azure;
+    text-align: center;
+}
+.socicon
+{
+  font-size: 3em;
+display: inline-block;
+  align-items: center;
+  flex-direction: column;
+padding-right: 30px;
+margin-right: 30px;
+}
+a
+{
+  font-weight: bolder;
+  text-decoration: none;
+  color: aliceblue;
+  size: 2.2em;
+}
+.social-container 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-icons 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+h3 
+{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.cards
+{
+background-color: goldenrod;
+margin: 10px;
+border-radius: 20px;
+width: 250px;
+}
+h2
+{
+    color: rgb(140, 121, 14);
+}
+#sections
+{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 20px;
+    align-items: center;
+}
+.arrange
+{
+    display: flex;
+    flex-direction: row;
+}
+section
+{
+    border: solid goldenrod;
+}
+#ourBranches
+{
+    background-color: bisque;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+footer
+{
+    background-color: darkblue;
+}
+
